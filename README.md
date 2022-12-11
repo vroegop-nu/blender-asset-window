@@ -70,12 +70,13 @@ also optional parts of the window.
 
 ### Attributes
 
-| Attribute             | Type    | Description                                               |
-| --------------------- | ------- | --------------------------------------------------------- |
-| v_origin              | vector  | Origin point of window frame part. Stored on every vertex |
-| is_pane               | boolean | Stored as True on every window pane vertex                |
-| is_frame              | boolean | Stored as True on every window frame vertex               |
-| is_window_inner_frame | boolean | Stored as True on every inner frame window frame vertex   |
-| is_window_outer_frame | boolean | Stored as True on every outer window frame vertex         |
-| is_lintel             | boolean | Stored as True on every lintel vertex                     |
-| is_window_sill        | boolean | Stored as True on every sill vertex                       |
+| Attribute             | Type    | Description                                                      |
+| --------------------- | ------- | ---------------------------------------------------------------- |
+| v_origin              | vector  | Origin point of window frame part. Stored on every vertex        |
+| is_pane               | boolean | Stored as True on every window pane vertex and face              |
+| is_frame              | boolean | Stored as True on every window frame vertex                      |
+| is_window_inner_frame | boolean | Stored as True on every inner frame window frame vertex          |
+| is_window_outer_frame | boolean | Stored as True on every outer window frame vertex                |
+| is_lintel             | boolean | Stored as True on every lintel vertex                            |
+| is_window_sill        | boolean | Stored as True on every sill vertex                              |
+| is_outer_edge         | boolean | Stored on the outer edges of the window frames (inner and outer) |
