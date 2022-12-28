@@ -32,8 +32,8 @@ vertically subdivided. The faces inside the frame are marked as window panes.
 
 ## Window
 
-The window node group can be used to generate windows. The node group uses the Window Frame node 
-group to create a window. Windows can have an optional outer frame. A window sill and lintel are 
+The window node group can be used to generate windows. The node group uses the Window Frame node
+group to create a window. Windows can have an optional outer frame. A window sill and lintel are
 also optional parts of the window.
 
 ## Parameters
@@ -80,3 +80,9 @@ also optional parts of the window.
 | is_lintel             | boolean | Stored as True on every lintel vertex                            |
 | is_window_sill        | boolean | Stored as True on every sill vertex                              |
 | is_outer_edge         | boolean | Stored on the outer edges of the window frames (inner and outer) |
+
+# Materials
+
+## Window Pane Glass
+
+A high gloss material that uses the vertex color as a base color and combines the object position with the v_origin attribute to randomly generate a normal rotation. The material makes the panes have a slightly different reflection angle.
