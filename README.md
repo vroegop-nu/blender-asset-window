@@ -86,3 +86,7 @@ also optional parts of the window.
 ## Window Pane Glass
 
 A high gloss material that uses the vertex color as a base color and combines the object position with the v_origin attribute to randomly generate a normal rotation. The material makes the panes have a slightly different reflection angle.
+
+## Window Concrete
+
+A concrete material that can be applied to the window sill and lintel. A has a slightly rough surface and some speckles to break the surface color. The base color can be set by adjusting the vertex color.
